@@ -1,5 +1,5 @@
 package com.languageFundamentals;
-
+//No return type+ with arguments
 public class Bank {
 	double balance=100;
 	void checkBalance() {
