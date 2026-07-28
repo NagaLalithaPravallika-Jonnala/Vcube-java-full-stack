@@ -1,8 +1,7 @@
 package com.Practice;
 import java.util.Scanner;
 public class Swap {
-	int a;
-	int b;
+	
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
