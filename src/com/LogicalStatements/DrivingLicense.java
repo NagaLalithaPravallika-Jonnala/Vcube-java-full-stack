@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class DrivingLicense {
 
 	public static void main(String[] args) {
-
+		
 		Scanner sc = new Scanner(System.in);
-
+		
 		System.out.println("*******************************************");
 		System.out.println("       WELCOME TO DRIVING LICENSE         ");
 		System.out.println("          VERIFICATION PORTAL             ");
@@ -102,6 +102,7 @@ public class DrivingLicense {
 			System.out.println("Final Status : NOT ELIGIBLE");
 			System.out.println("Reason : Minimum Age Should be Above 18 Years");
 		}
+    
 		System.out.println("\n--------------------------------------------");
 		System.out.println("Thank You for Using Driving License Portal");
 		System.out.println("Visit Again!");
