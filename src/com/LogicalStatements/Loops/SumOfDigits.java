@@ -8,13 +8,11 @@ public class SumOfDigits {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter n value : " );
 		int n = sc.nextInt();
-		int digit =1;
+		int sum = 1;
 		for(int i=1;i<=n;i++) {
-			int sum = 1;
-			System.out.println(n);
-			sum = sum + digit;
-			
+			sum = sum + i;	
 		}
+		System.out.println(sum);
 	}
 
 }

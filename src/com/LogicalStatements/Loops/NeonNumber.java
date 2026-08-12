@@ -9,10 +9,10 @@ public class NeonNumber {
 		int sum = 0;
 		while(s > 0) {
 		
-			int digit = s % 10;
-			sum = sum + digit;
-			s = s/10;
-		}
+			int digit = s % 10;  // 10)8(0
+			sum = sum + digit;   //    0
+			s = s/10;            //   -----
+		}                        //     8
 		if(n==sum) {
 			System.out.println("It is a neon number");
 		}
