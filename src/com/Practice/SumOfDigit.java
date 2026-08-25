@@ -5,12 +5,12 @@ public class SumOfDigit {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the value : ");
-		int n = sc.nextInt();
+		int n = sc.nextInt();//4
 		int sum = 0;
 		for(int i = 0;i <= n;i++) {
 			sum += i;
-					}
-	    System.out.println("The Sum is : " + sum);
+					}  
+		System.out.println("The Sum is : " + sum);
 
 	}
 
